@@ -2,7 +2,7 @@ package primeiroProjeto;
 
 import java.util.Scanner;
 
-public class primeiraClasse {
+public class exercicio1 {
 
 	public static void main(String[] args) {
 		// declaração de variaveis
