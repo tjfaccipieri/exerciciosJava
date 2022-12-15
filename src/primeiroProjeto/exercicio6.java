@@ -22,10 +22,11 @@ public class exercicio6 {
 		System.out.println("Entre com o valor da coordenada Y2:");
 		y2 = entrada.nextFloat();
 		
+		// Math.pow(valor, potencia)
 		distancia = (Math.pow((x2-x1), 2))+(Math.pow((y2-y1), 2));
 		raiz = Math.sqrt(distancia);
 
-		System.out.println("A distancia entre os pontos Ã© de: " + decimal.format(raiz));
+		System.out.println("A distancia entre os pontos é de: " + decimal.format(raiz));
 	}
 
 }
