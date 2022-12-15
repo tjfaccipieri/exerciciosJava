@@ -9,13 +9,14 @@ public class exercicioBonus {
 //	a) média do salário da população; 
 //	b) média do número de filhos; 
 //	c) maior salário; 
-//	d) percentual de pessoas com salário até R$100,00.
+//	d) percentual de pessoas com salário até R$100,00
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		
 		int qntFilhos, incremento, salarioAbaixo = 0;
 		double salario, mediaSalario = 0.0, maiorSalario = 0.0, percentualSalario = 0.0, mediaFilhos = 0.0;
+		
 		
 		for(incremento = 0; incremento < 20; incremento++) {
 			System.out.println("Qual o seu salario? ");
@@ -45,5 +46,31 @@ public class exercicioBonus {
 		System.out.println("O percentual de pessoas abaixo de 100 reais de salario e: " + percentualSalario);
 
 	}
+	
+//	public static void main(String[] args) {
+//
+//        int idade = 0, contador21 = 0, contador50 = 0;
+//
+//        Scanner entrada = new Scanner(System.in);
+//        
+//        while (idade != -99) {
+//        System.out.println("Digite a idade: \n ");
+//        idade = entrada.nextInt();
+//
+//          // aqui nos IFs, você tinha esquecido de colocar as chaves depois da condição
+//            if (idade < 21 && idade > 0){
+//                contador21++;
+//            }
+//            if (idade > 50){
+//                contador50++;    
+//            }
+//
+//          System.out.println("Digite -99 para encerrar): \n ");
+//        }
+//
+//            
+//            System.out.println("O total de pessoas com menos de 21 anos é de:\n " + contador21);
+//            System.out.println("O total de pessoas com mais de 50 anos é de:\n " + contador50);
+//    }
 
 }
