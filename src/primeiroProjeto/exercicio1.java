@@ -22,8 +22,10 @@ public class exercicio1 {
 		System.out.println("Dia de nascimento: ");
 		dia = entrada.nextInt();
 		
+		
 		somadias = (((mes*31)+ dia)+(ano*365));
 		System.out.println("Sua idade em dias é: " + somadias);
 	}
+	
 
 }

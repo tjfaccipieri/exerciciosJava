@@ -1,5 +1,6 @@
 package lacosRepeticao;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class exercicio4Repeticao {
@@ -23,7 +24,7 @@ public class exercicio4Repeticao {
 		int mulheresNervosas = 0, calmasMenos = 0, homensAgressivos = 0;
 		int outrosCalmos = 0, nervosasMais = 0;
 		
-		while(incremento < 3) {
+		while(incremento < 2) {
 			System.out.println("Digite a sua idade: ");
 			idade = entrada.nextInt();
 			
